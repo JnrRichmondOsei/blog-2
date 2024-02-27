@@ -1,0 +1,119 @@
+div{
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.container-one{
+  height: 580px;
+  width: 305px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+.main-img{
+  margin-bottom: 30px;
+}
+.image-one{
+  height: 250px;
+  object-fit: cover;
+  object-position: center;
+  transition: opacity 0.8s;
+  cursor: pointer;
+}
+.image-one:hover{
+  opacity: 0.7;
+}
+.profit-words{
+ margin-top: -1px; 
+ padding-left: 10px;
+ padding-top: 20px;
+}
+
+.a-words{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.bob-words{
+  font-size: 15px;
+  color: rgb(125, 125, 125);
+  text-decoration: underline;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+  display: inline-block;
+}
+.bob-words:hover{
+  color: rgb(106, 106, 238);
+
+}
+.jour-words{
+  font-size: 17px;
+  width: 270px;
+  margin-bottom: 15px;
+}
+.read-more{
+  cursor: pointer;
+  margin-top: 30px;
+}
+.read-more:hover{
+  color: rgb(255, 96, 96);
+}
+.refer{
+  color: rgb(106, 106, 238);
+  opacity: 0.7;
+  font-weight: bold;
+  font-size: 13px;
+  margin-left: 80px;
+  margin-bottom: 8px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.bob{
+  width: 270px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.container-two{
+  display: grid;
+  grid-template-columns: 305px 305px 305px;
+  column-gap: 50px;
+  row-gap: 80px;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.image-two{
+  height: 250px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+  transition: opacity 0.8s;
+  cursor: pointer;
+}
+.image-two:hover{
+  opacity: 0.7;
+}
+.image-four{
+  height: 250px;
+  width: 320px;
+  object-fit: cover;
+  object-position: center;
+  transition: opacity 0.8s;
+  cursor: pointer;
+}
+.image-four:hover{
+  opacity: 0.7;
+}
+.double{
+  display: grid;
+  grid-template-columns: 305px 305px;
+  column-gap: 50px;
+  row-gap: 80px;
+  margin-left: 3px;
+}
+.copy{
+  display: grid;
+  justify-content: center;
+}
